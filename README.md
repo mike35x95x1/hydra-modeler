@@ -144,4 +144,4 @@ Hydra-Modeler is covered by unit tests to ensure correctness across different as
 
 ## License
 
-MIT © \[Your Name]
+**MIT**

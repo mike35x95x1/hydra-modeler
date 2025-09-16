@@ -118,8 +118,8 @@ Output:
 
 Hydra-Modeler solves the problem of **reconstructing nested structures** from flat row results:
 
-- Query builders (e.g., Kysely) and SQL joins return denormalized rows
-- You often want a **tree of objects** that matches your domain model
+- Query builders (e.g., Kysely) and SQL joins return denormalized rows. Some dialects support nested json by subqueries some don't.
+- You often want a **tree of objects** that matches your domain model regardless framework used.
 - ORMs solve this but lock you into heavy abstractions — Hydra-Modeler gives you **just the hydration** part
 
 This makes it ideal for:

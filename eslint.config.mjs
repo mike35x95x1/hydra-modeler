@@ -4,6 +4,7 @@ import tseslint from 'typescript-eslint';
 import importPlugin from 'eslint-plugin-import';
 import unusedImports from 'eslint-plugin-unused-imports';
 import prettier from 'eslint-config-prettier';
+import prettierPlugin from 'eslint-plugin-prettier';
 import globals from 'globals';
 
 export default [
@@ -21,6 +22,7 @@ export default [
       '@typescript-eslint': tseslint.plugin,
       import: importPlugin,
       'unused-imports': unusedImports,
+      prettier: prettierPlugin,
     },
     rules: {
       // import hygiene
@@ -44,6 +46,9 @@ export default [
 
       // relaxed while API is in flux
       '@typescript-eslint/no-explicit-any': 'off',
+
+      // run Prettier as an ESLint rule (shows squiggles, works with --fix)
+      'prettier/prettier': 'warn',
     },
   },
 

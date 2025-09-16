@@ -21,6 +21,8 @@
 
 It is designed to work with any SQL builder (Kysely, Knex, Sequelize, raw SQL) or even external APIs that return flat row structures. Hydra-Modeler lets you define models, attributes, and associations (belongsTo, hasOne, hasMany, belongsToMany) and then transform flat rows into deeply nested objects — much like an ORM hydration step, but **without ORM lock-in**.
 
+Hydra-Modeler is **not a competitor or replacement for ORMs**. Instead, it is a complementary utility that focuses solely on the **transformation of flat datasets into structured JSON trees**. This makes it easy to pair with existing ORMs or query builders, while keeping full control over queries and associations.
+
 ---
 
 ## Features

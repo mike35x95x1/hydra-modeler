@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://www.npmjs.com/package/hydra-modeler">
-    <img src="https://img.shields.io/npm/v/hydra-modeler.svg" alt="npm version"/>
-  </a>
-  <a href="https://github.com/mike35x95x1/hydra-modeler/actions">
-    <img src="https://github.com/mike35x95x1/hydra-modeler/actions/workflows/ci.yml/badge.svg" alt="CI"/>
-  </a>
-</p>
+<a href="https://www.npmjs.com/package/hydra-modeler">
+  <img src="https://img.shields.io/badge/npm-unpublished-red" alt="npm version"/>
+</a>

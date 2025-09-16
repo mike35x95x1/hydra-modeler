@@ -42,8 +42,6 @@ Hydra-Modeler is **not a competitor or replacement for ORMs**. Instead, it is a 
 npm install hydra-modeler
 ```
 
-````
-
 or with yarn:
 
 ```bash
@@ -151,4 +149,7 @@ MIT © \[Your Name]
 ```
 
 ```
-````
+
+```
+
+```

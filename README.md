@@ -1,5 +1,3 @@
-Here’s an extended full **README.md** with the extra details about supported associations, `columns` utility, column processors, and `postProcess` callbacks:
-
 <p align="center">
   <img src=".github/assets/hydra-modeler-logo.jpg" alt="Hydra Modeler" width="200"/>
 </p>
@@ -10,8 +8,8 @@ Here’s an extended full **README.md** with the extra details about supported a
   <a href="https://www.npmjs.com/package/hydra-modeler">
     <img src="https://img.shields.io/npm/v/hydra-modeler.svg" alt="npm version"/>
   </a>
-  <a href="https://github.com/mike35x95x1/hydra-modeler/actions">
-    <img src="https://github.com/mike35x95x1/hydra-modeler/actions/workflows/ci.yml/badge.svg" alt="CI status"/>
+  <a href="https://github.com/mike35x95x1/hydra-modeler/actions/workflows/ci.yml">
+    <img src="https://github.com/mike35x95x1/hydra-modeler/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI status"/>
   </a>
 </p>
 
@@ -154,12 +152,3 @@ Hydra-Modeler is covered by unit tests to ensure correctness across different as
 ## License
 
 **MIT**
-
-```
-
-Do you want me to also add a **“Usage examples”** section for `columns()` and `postProcess()` right in the README, or keep it lighter and link to unit tests as examples?
-```
-
-```
-
-```

@@ -4,20 +4,32 @@
   "description": "Database-agnostic, framework-independent, zero-dependency library for transforming flat datasets into nested JSON trees.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "README.md"
   ],
-  "keywords": [
-    "orm",
-    "hydration",
-    "models",
-    "kysely",
-    "sequelize",
-    "typescript"
-  ],
-  "author": "mike35x95x1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike35x95x1/hydra-modeler.git"
+  },
+  "homepage": "https://github.com/mike35x95x1/hydra-modeler#readme",
+  "bugs": {
+    "url": "https://github.com/mike35x95x1/hydra-modeler/issues"
+  },
   "license": "MIT",
+  "author": "mike35x95x1",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "lint": "eslint .",
@@ -26,6 +38,14 @@
     "fmt:fix": "prettier . --write",
     "test": "jest --passWithNoTests"
   },
+  "keywords": [
+    "orm",
+    "hydration",
+    "models",
+    "kysely",
+    "sequelize",
+    "typescript"
+  ],
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "^8.8.0",

@@ -1,6 +1,6 @@
 {
   "name": "hydra-modeler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Database-agnostic, framework-independent, zero-dependency library for transforming flat datasets into nested JSON trees.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,6 +1,5 @@
 Here’s an extended full **README.md** with the extra details about supported associations, `columns` utility, column processors, and `postProcess` callbacks:
 
-````markdown
 <p align="center">
   <img src=".github/assets/hydra-modeler-logo.jpg" alt="Hydra Modeler" width="200"/>
 </p>
@@ -53,15 +52,12 @@ Hydra-Modeler is **not a competitor or replacement for ORMs**. Instead, it is a 
 ```bash
 npm install hydra-modeler
 ```
-````
 
 or with yarn:
 
 ```bash
 yarn add hydra-modeler
 ```
-
----
 
 ## Quick Start
 
@@ -162,4 +158,8 @@ Hydra-Modeler is covered by unit tests to ensure correctness across different as
 ```
 
 Do you want me to also add a **“Usage examples”** section for `columns()` and `postProcess()` right in the README, or keep it lighter and link to unit tests as examples?
+```
+
+```
+
 ```

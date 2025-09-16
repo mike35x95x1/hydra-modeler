@@ -1,6 +1,3 @@
-Here’s a clean **README.md** you can drop into your repo — it includes your logo, badges, an introduction, install instructions, usage notes, and purpose of Hydra-Modeler:
-
-````markdown
 <p align="center">
   <img src=".github/assets/hydra-modeler-logo.jpg" alt="Hydra Modeler" width="200"/>
 </p>
@@ -42,6 +39,7 @@ It is designed to work with any SQL builder (Kysely, Knex, Sequelize, raw SQL) o
 ```bash
 npm install hydra-modeler
 ```
+
 ````
 
 or with yarn:
@@ -150,12 +148,5 @@ MIT © \[Your Name]
 
 ```
 
----
-
-👉 Notes:
-- Put your logo file in `docs/hydra-modeler-logo.png` (or `assets/` if you prefer).
-- Once you publish to npm, the version badge will update automatically.
-- If your CI workflow isn’t named `ci.yml`, update the badge URL accordingly.
-
-Would you like me to also generate a **docs/USAGE.md** file with more advanced examples (hasMany, belongsToMany, etc.) so you can link it from the README?
 ```
+````
